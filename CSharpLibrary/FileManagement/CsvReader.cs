@@ -7,8 +7,16 @@ using System.Threading.Tasks;
 
 namespace LibFileManagement
 {
+    /// <summary>
+    /// csvファイルを読み込むクラス
+    /// </summary>
     public class CsvReader
     {
+        /// <summary>
+        /// 指定したファイルの内容の読み取り
+        /// </summary>
+        /// <param name="path"></param>
+        /// <returns></returns>
         public static string[][] Read(string path)
         {
             List<string[]> data = new List<string[]>();

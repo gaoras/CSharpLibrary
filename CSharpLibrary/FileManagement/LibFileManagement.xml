@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LibFileManagement</name>
+    </assembly>
+    <members>
+        <member name="T:LibFileManagement.CsvReader">
+            <summary>
+            csvファイルを読み込むクラス
+            </summary>
+        </member>
+        <member name="M:LibFileManagement.CsvReader.Read(System.String)">
+            <summary>
+            指定したファイルの内容の読み取り
+            </summary>
+            <param name="path"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
