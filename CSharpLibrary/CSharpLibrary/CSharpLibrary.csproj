@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FileManagement\LibFileManagement.csproj">
+      <Project>{41ba53c7-08c7-44b0-a4b9-ebd577435e88}</Project>
+      <Name>LibFileManagement</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
