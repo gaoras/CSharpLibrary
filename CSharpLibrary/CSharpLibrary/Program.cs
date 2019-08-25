@@ -12,7 +12,7 @@ namespace CSharpLibrary
         static void Main(string[] args)
         {
             //読み込みファイルのパスを指定
-            string filePath = @"C:\data\test.csv";
+            string filePath = @"D:\Users\YU\Desktop\csvComma.csv";
             string[][] csvData = CsvReader.Read(filePath);
             for (int i = 0; i < csvData.Length; i++)
             {
